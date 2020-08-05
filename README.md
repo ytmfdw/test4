@@ -45,6 +45,13 @@ Laya版本：1.8.9
 		wxcode/src/effect					特效相关目录
 		wxcode/src/effect/CaiDai.ts			过关小彩带
 		
+### 接口说明
+		wxcode/src/Game.ts				loadLaya()：	小游戏入口函数，初始舞台，加载图集，加载缓存，加载LoadPage
+		wxcode/src/home/LoadPage.ts		loadRes(callBack:Function):		加载分包或网络资源，加载完成后，回调callBack
+		wxcode/src/game/GameInfo.ts		initGameUi() ：	加载游戏界面，游戏逻辑由此入
+		wxcode/src/game/PassPage.ts		setData(data:any):	过关数据展示
+		wxcode/src/game/PassPage.ts		nextClick():	点击下一关
+		
 ### License
 	
 released under the [Apache 2.0 license](LICENSE).
